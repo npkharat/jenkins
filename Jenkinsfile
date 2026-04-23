@@ -11,6 +11,10 @@ pipeline {
 			steps{echo "Deploying the project ..."}
 		}
 
+		stage("apt update"){
+			steps{sh ''' sudo apt update ''' }
+		}
+
 		
 
 		}
