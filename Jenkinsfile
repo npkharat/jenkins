@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/npkharat/jenkins.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 sh 'pip3 install -r requirements.txt'
