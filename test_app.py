@@ -1,4 +1,4 @@
-from app import add
+from app import hello
 
-def test_add():
-    assert add(2, 3) == 5
+def test_hello():
+    assert hello() == "Hello Jenkins"

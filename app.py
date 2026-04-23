@@ -1,5 +1,5 @@
-def add(a, b):
-    return a + b
+def hello():
+    return "Hello Jenkins"
 
 if __name__ == "__main__":
-    print("Hello from Jenkins!")
+    print(hello())
